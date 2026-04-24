@@ -118,7 +118,7 @@ export default function App() {
                 transition={{ duration: 0.8 }}
               >
                 <h1 className="text-[clamp(2.8rem,6vw,5.2rem)] leading-[1.1] mb-6 max-w-[680px] mx-auto md:mx-0">
-                  Desenvolvedor full stack
+                  Desenvolvedor Full-stack
                 </h1>
 
                 <p className="text-muted-foreground text-lg leading-relaxed max-w-[600px] mb-10 mx-auto md:mx-0">
