@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio de Lucas Mendes, desenvolvedor front-end em Curitiba/PR.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="shortcut icon" href="img/LM1.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="menu.js" defer></script>
+    <title>Lucas Mendes | Desenvolvedor Front-End</title>
+</head>
+<body>
+    <header>
+        <div class="interface header-content">
+            <a class="logo" href="#topo-do-site" aria-label="Ir para o início">
+                <span>&lt;/</span>Lucas Mendes<span>&gt;</span>
+            </a>
+
+            <nav class="menu-desktop" aria-label="Menu principal">
+                <ul>
+                    <li><a href="#topo-do-site">Início</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+
+            <button class="btn-abrir-menu" id="btn-menu" type="button" aria-label="Abrir menu">
+                <i class="bi bi-list"></i>
+            </button>
+
+            <div class="menu-mobile" id="menu-mobile">
+                <button class="btn-fechar" id="btn-fechar" type="button" aria-label="Fechar menu">
+                    <i class="bi bi-x-lg"></i>
+                </button>
+                <nav aria-label="Menu mobile">
+                    <ul>
+                        <li><a href="#topo-do-site">Início</a></li>
+                        <li><a href="#habilidades">Habilidades</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#projetos">Projetos</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="overlay-menu" id="overlay-menu"></div>
+        </div>
+    </header>
+
+    <main>
+        <section class="topo-do-site" id="topo-do-site">
+            <div class="interface hero-grid">
+                <div class="txt-topo-site">
+                    <p class="tag">Curitiba/PR</p>
+                    <h1>Desenvolvedor Front-End focado em interfaces modernas.</h1>
+                    <p class="descricao">
+                        Crio paginas responsivas com HTML, CSS e JavaScript, sempre buscando escrever codigo mais limpo e melhorar a experiencia de quem usa.
+                    </p>
+
+                    <div class="acoes-hero">
+                        <a class="btn-principal" href="#projetos">Ver projetos</a>
+                        <a class="btn-secundario" href="#contato">Falar comigo</a>
+                    </div>
+
+                    <div class="links-sociais" aria-label="Redes sociais">
+                        <a href="https://www.linkedin.com/in/lucas-m-65817a107/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/LucasMendes99" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                            <i class="bi bi-github"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="img-topo-site">
+                    <img src="img/lucas1.png" alt="Foto de Lucas Mendes">
+                </div>
+            </div>
+        </section>
+
+        <section class="habilidades" id="habilidades">
+            <div class="interface">
+                <h2 class="titulo">Minhas <span>habilidades</span></h2>
+                <div class="cards-grid">
+                    <article class="habilidades-box">
+                        <i class="bi bi-filetype-html"></i>
+                        <h3>HTML</h3>
+                        <p>Estruturo paginas com semantica, acessibilidade e organizacao.</p>
+                    </article>
+
+                    <article class="habilidades-box">
+                        <i class="bi bi-filetype-css"></i>
+                        <h3>CSS</h3>
+                        <p>Crio layouts responsivos, estilos consistentes e interfaces agradaveis.</p>
+                    </article>
+
+                    <article class="habilidades-box">
+                        <i class="bi bi-filetype-js"></i>
+                        <h3>JavaScript</h3>
+                        <p>Adiciono interatividade, menus, validacoes e comportamento dinamico.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="sobre" id="sobre">
+            <div class="interface sobre-grid">
+                <div class="img-sobre">
+                    <img src="img/lucas2.png" alt="Lucas Mendes sorrindo">
+                </div>
+
+                <div class="txt-sobre">
+                    <h2>Muito prazer, <span>sou Lucas Mendes.</span></h2>
+                    <p>
+                        Sou estudante de Engenharia de Software e tenho grande interesse por desenvolvimento web. Venho estudando HTML, CSS, JavaScript, React e Node.js para criar interfaces intuitivas, responsivas e bem organizadas.
+                    </p>
+                    <p>
+                        Estou desenvolvendo projetos pessoais para praticar, evoluir meu portfolio e buscar uma oportunidade em uma equipe onde eu possa colaborar, aprender e crescer como desenvolvedor.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio" id="projetos">
+            <div class="interface">
+                <h2 class="titulo">Meu <span>portfolio</span></h2>
+                <div class="projetos-grid">
+                    <article class="projeto-card">
+                        <div class="img-port" style="background-image: url('img/to-do-list.png');"></div>
+                        <div class="projeto-info">
+                            <h3>To-do List</h3>
+                            <p>Aplicacao simples para organizar tarefas e praticar JavaScript.</p>
+                            <div class="projeto-links">
+                                <a href="https://lucasmendes99.github.io/To-do-list/" target="_blank" rel="noopener noreferrer">Ver projeto</a>
+                                <a href="https://github.com/LucasMendes99/To-do-list" target="_blank" rel="noopener noreferrer">Repositorio</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projeto-card projeto-placeholder">
+                        <div class="img-port" style="background-image: url('img/construcao2.png');"></div>
+                        <div class="projeto-info">
+                            <h3>Proximo projeto</h3>
+                            <p>Espaco reservado para o proximo projeto do portfolio.</p>
+                        </div>
+                    </article>
+
+                    <article class="projeto-card projeto-placeholder">
+                        <div class="img-port" style="background-image: url('img/construcao2.png');"></div>
+                        <div class="projeto-info">
+                            <h3>Em desenvolvimento</h3>
+                            <p>Use este card para mostrar seu crescimento com novos estudos.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="formulario" id="contato">
+            <div class="interface">
+                <h2 class="titulo">Fala <span>comigo</span></h2>
+                <form action="mailto:lucas.ms2312@gmail.com" method="post" enctype="text/plain">
+                    <input type="text" name="nome" placeholder="Seu nome completo" required>
+                    <input type="email" name="email" placeholder="Seu e-mail" required>
+                    <input type="tel" name="celular" placeholder="Seu celular">
+                    <textarea name="mensagem" placeholder="Sua mensagem" required></textarea>
+                    <div class="btn-enviar">
+                        <input type="submit" value="Enviar">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="interface">
+            <div class="footer-topo">
+                <a class="logo" href="#topo-do-site">
+                    <span>&lt;/</span>Lucas Mendes<span>&gt;</span>
+                </a>
+
+                <div class="links-sociais">
+                    <a href="https://www.linkedin.com/in/lucas-m-65817a107/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/LucasMendes99" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <i class="bi bi-github"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-contato">
+                <p><i class="bi bi-envelope-fill"></i><a href="mailto:lucas.ms2312@gmail.com">lucas.ms2312@gmail.com</a></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
